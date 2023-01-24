@@ -6,12 +6,23 @@
     </x-slot>
 
     <div class="py-12">
+        @if (session ('status'))
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
+                <div class="bg-white dark:bg-red-800 overflow-hidden shadow-sm sm:rounded-lg p-2">
+                    User added Successfully
+                </div>
+            </div>
+        @endif
+        
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                 <h2>
                 {{ $sample }}
-                <button class="rounded-full bg-green-500 p-2 hover:bg-sky-700 float-right">Add User</button>
+                <a href="{{ url('/users/add')}}">
+                    <button class="rounded-full bg-green-500 p-2 hover:bg-sky-700 float-right">Add User</button>
+                </a>
+                
                 </h2>
                 
                 <table class="table-auto w-full">
