@@ -14,10 +14,18 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('users', [
+        return view('users.users', [
             'sample' => 'User Information',
             'users'=> User::all()
         ]);
+    }
+
+    public function form()
+    {
+        return view('users.form',[
+            'sample2' => 'Add User'
+        ])
+        ;
     }
 
     /**

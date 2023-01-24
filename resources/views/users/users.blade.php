@@ -11,7 +11,9 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                 <h2>
                 {{ $sample }}
+                <button class="rounded-full bg-green-500 p-2 hover:bg-sky-700 float-right">Add User</button>
                 </h2>
+                
                 <table class="table-auto w-full">
                     <thead>
                     <tr>
@@ -20,22 +22,19 @@
                         <th>Actions</th>
                     </tr>
                 </thead>
+               
                 <tbody>
+                @foreach($users as $user)
+
                     <tr>
-                        <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                        <td>Malcolm Lockyer</td>
-                        <td>1961</td>
+                        <td>{{$user->name}}</td>
+                        <td class="text-center">{{$user->email}}</td>
+                        <td class="text-center">
+                            <button class="rounded-full bg-sky-500 p-2 hover:bg-sky-700">Update</button>
+                            <button class="rounded-full bg-sky-500 p-2 hover:bg-sky-700">Delete</button>
+                        </td>    
                     </tr>
-                    <tr>
-                        <td>Witchy Woman</td>
-                        <td>The Eagles</td>
-                        <td>1972</td>
-                    </tr>
-                    <tr>
-                        <td>Shining Star</td>
-                        <td>Earth, Wind, and Fire</td>
-                        <td>1975</td>
-                    </tr>
+                @endforeach
                 </tbody>
                 </table>
 
