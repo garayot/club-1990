@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Validation\Rules;
 use Illuminate\Support\Facades\Hash;
+use DB;
 
 class UserController extends Controller
 {
@@ -88,6 +89,10 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        DB::delete('delete from users where id = ?', [$id]);
+
+        session()->flash('status', ' User deleted Successfully!');
+        
+        return redirect('/users');
     }
 }

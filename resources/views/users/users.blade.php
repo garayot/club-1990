@@ -46,9 +46,6 @@
                                         <a href="{{ url('/users/update/' . $user->id) }}">
                                             <button class="rounded-full bg-sky-500 p-1 hover:bg-sky-700">Update</button>
                                         </a>
-                                        <a href="{{ url('/users/password/' . $user->id) }}">
-                                            <button class="rounded-full bg-sky-500 p-1 hover:bg-sky-700">Password</button>
-                                        </a>
                                         <a href="{{ url('/users/delete/' . $user->id) }}">
                                             <button class="rounded-full bg-sky-500 p-1 hover:bg-sky-700">Delete</button>
                                         </a>
