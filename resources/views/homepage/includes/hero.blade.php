@@ -1,7 +1,7 @@
 <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <!-- <h1>Welcome to <span>Restaurantly</span></h1> -->
           <a href="" class="logo me-auto me-lg-0"><img src="assets/img/club.svg" alt="" class="img-fluid"></a>
           <h2>EVENTS AND CONCEPTS</h2>
