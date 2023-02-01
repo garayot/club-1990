@@ -90,8 +90,6 @@ class UserController extends Controller
     public function destroy($id)
     {
         DB::delete('delete from users where id = ?', [$id]);
-
-        session()->flash('status', ' User deleted Successfully!');
         
         return redirect('/users');
     }
