@@ -1,0 +1,1 @@
+<img src="assets/img/club.svg" width="200px"/>
