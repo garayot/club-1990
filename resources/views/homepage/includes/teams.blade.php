@@ -28,11 +28,11 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/teams/chefs-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/teams/ceo.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
+                  <h4>Bert Jimenez</h4>
+                  <span>Co-Founder</span>
                 </div>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -46,11 +46,11 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/teams/chefs-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/teams/planner.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
+                  <h4>Fred Murillo</h4>
+                  <span>Event Planner</span>
                 </div>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
